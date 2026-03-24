@@ -19,17 +19,14 @@ from datetime import datetime, timedelta, timezone
 
 # ─── Pool Geometry ────────────────────────────────────────────────────────────
 # Trapezoidal cross-section pool:
-#   Length  = 10 ft
-#   Width   =  4 ft
-#   Deep end =  4 ft,  Shallow end = 3 ft
 #
 # Volume of a prism with trapezoidal cross-section:
 #   V = width × length × (deep + shallow) / 2
 
-POOL_LENGTH_FT = 10.0
-POOL_WIDTH_FT = 4.0
-DEEP_END_FT = 4.0
-SHALLOW_END_FT = 3.0
+POOL_LENGTH_FT = 41.0
+POOL_WIDTH_FT = 20.0
+DEEP_END_FT = 4.5
+SHALLOW_END_FT = 3.5
 
 POOL_VOLUME_FT3 = POOL_WIDTH_FT * POOL_LENGTH_FT * (DEEP_END_FT + SHALLOW_END_FT) / 2.0
 POOL_VOLUME_LITERS = POOL_VOLUME_FT3 * 28.3168  # 1 ft³ ≈ 28.3168 L
