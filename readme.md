@@ -4,7 +4,7 @@ Little terminal utilties I mostly vibe-coded, maybe you'll find them handy too.
 
 -------
 
-# Pool Temp
+# 🌴 Pool Temp
 
 Is the rooftop pool warm enough to swim in? Based on specific heat capacity of pool water volume to absorb last 5 days of local weather.
 
@@ -18,7 +18,7 @@ Is the rooftop pool warm enough to swim in? Based on specific heat capacity of p
 
 --------
 
-# Chroma Key
+# 🪞 Chroma Key
 
 Input `,mp4` video and hex background color and generates transparent background `.webm` and `.mov` (for safari) files.
 
